@@ -6,13 +6,14 @@ let n = Number(prompt('Enter number: '));
 let x = 0;
 let y = 1;
 let value;
+let z = 0;
 console.log(x);
 console.log(y);
 
-while (x <= n){
+while (z < n){
   value = x + y;
   x = y;
   y = value;
-  
   console.log(value);
+  z++;
 }
