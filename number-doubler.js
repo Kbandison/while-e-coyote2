@@ -9,7 +9,7 @@ console.log(number);
 
 while (number <= 100){
 
-  total = number * number;
+  total = number + number;
   number = total;
   console.log(total);
 }
