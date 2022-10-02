@@ -10,7 +10,7 @@ let z = 0;
 console.log(x);
 console.log(y);
 
-while (z < n){
+while (z < n - 2){
   value = x + y;
   x = y;
   y = value;
